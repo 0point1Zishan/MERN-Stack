@@ -1,0 +1,46 @@
+h1{
+    color: rgb(13, 117, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2, h3, h4{
+    color: rgb(202, 9, 9);
+}
+
+#login{
+    color: rgb(67, 133, 203);
+    background-color: beige;
+}
+#signup{
+    color: blueviolet;
+    background-color: cornsilk;
+}
+.answer{
+    background-color: rgb(241, 0, 221);
+    color: white;
+}
+#myid p{
+    color: green;
+    font-style: italic;
+}
+p a{
+    text-decoration: none;
+    color:purple;
+    background-color: white;
+    font-style: normal;
+}
+header nav ul li{
+    color: brown;
+    text-shadow: 5px;
+}
+
+/* h3 immediately comes after p */
+p + h3{
+    font-style: oblique;
+    color: brown;
+}
+span button{
+    color:rgb(193, 3, 168);
+    font-style: initial;
+    font-size:larger;
+    background-color: cornsilk;
+}
