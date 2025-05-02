@@ -35,12 +35,49 @@ header nav ul li{
 
 /* h3 immediately comes after p */
 p + h3{
-    font-style: oblique;
     color: brown;
+    font-weight: bold;
+    font-size: larger;
 }
 span button{
     color:rgb(193, 3, 168);
     font-style: initial;
     font-size:larger;
     background-color: cornsilk;
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: rgb(243, 133, 0);
+    font-size: medium;
+    font-weight: bold;
+}
+a[title]{
+    color:rgb(199, 8, 14);
+}
+a[href]{
+    color:rgb(32, 11, 194);
+}
+a[href~="in"]{
+    color: rgb(181, 143, 2);
+}
+a[href|="home"]{
+    color: rgb(4, 115, 0);
+}
+a[href^="pre"]{
+    font-weight: bold;
+    color: rgb(255, 80, 80);
+    font-style: italic;
+}
+a[href$="er"]{
+    font-weight: bolder;
+    color: chartreuse;
+}
+a[class*="follow"]{
+    color: black;
+    text-decoration: overline;
 }
