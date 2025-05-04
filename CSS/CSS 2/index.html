@@ -16,8 +16,8 @@
             <button id="signup">Sign up</button>
         </h1>
         <div class="myid">
-            <input type="text" placeholder="username">
-            <input type="password" placeholder="password">
+            <input type="text" placeholder="username" autocomplete="username">
+            <input type="password" placeholder="password" autocomplete="new-password">
         </div>
         <nav>
             <ul>
@@ -30,6 +30,7 @@
         <hr>
     </header>
     <main>
+        <div>
         <p>
         Adam &nbsp;&nbsp;
         <a class="follow" href="/adam home-">Follow /abc</a></span>
@@ -40,7 +41,9 @@
             <button class="answer">answer</button>
         </span>
         <hr />
+        </div>
 
+        <div>
         <p>
         Bob &nbsp;&nbsp;
         <a class="follow" href="pre/bob">Follow xyz</a>
@@ -51,7 +54,9 @@
             <button class="answer">answer</button>
         </span>
         <hr />
+        </div>
 
+        <div>
         <p>
         Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
         <a class="follow" href="/catlyn">Follow pqr</a>
@@ -62,16 +67,52 @@
             <button class="answer">answer</button>
         </span>
         <hr />
-            <p>
-                Dan &nbsp;&nbsp;&nbsp;&nbsp;
-                <a class="follow" href="/dan">Follow pqr</a>
-                </p>
-                <h3>Why is the sky blue?</h3>
-                <span>
-                    <button>+upvote</button>
-                    <button class="answer">answer</button>
-                </span>
-                <hr />        
+        </div>
+
+        <div>
+        <p>
+        Dan &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="follow" href="/dan">Follow pqr</a>
+        </p>
+        <h3>Why is the sky blue?</h3>
+        <span>
+            <button>+upvote</button>
+            <button class="answer">answer</button>
+        </span>
+        <hr />
+        </div>
+        
+        <h3>Do you agree with the terms and conditions?</h3>
+        <div>
+            <input type="radio" id="yes" name="agreement">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no"name="agreement">
+            <label for="no">No</label>
+        </div>
+
+        <form action="/action">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" autocomplete="username" placeholder="username">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="email">
+        </form>
+        <hr>
+
+        <h3>Note:</h3>
+        <p>Terms and conditions are legally binding agreements that define the rules for using a product, service, or website. They outline the expectations, limitations, and responsibilities for both the business and the user. These agreements are also known as Terms of Service, Terms of Use, or End User License Agreements. 
+            Terms and conditions are legally binding agreements that define the rules for using a product, service, or website. They outline the expectations, limitations, and responsibilities for both the business and the user. These agreements are also known as Terms of Service, Terms of Use, or End User License Agreements. 
+            Terms and conditions are legally binding agreements that define the rules for using a product, service, or website. They outline the expectations, limitations, and responsibilities for both the business and the user. These agreements are also known as Terms of Service, Terms of Use, or End User License Agreements. 
+            Terms and conditions are legally binding agreements that define the rules for using a product, service, or website. They outline the expectations, limitations, and responsibilities for both the business and the user. These agreements are also known as Terms of Service, Terms of Use, or End User License Agreements. 
+        </p>
+        <hr>
+
+        <div id="feedback">
+            <label for="feedback">Please enter your valuable feedback: </label>
+            <br>
+            <textarea name="feedback" id="feedback" 
+            placeholder="Write here..." autocomplete="additional-name" rows="5" cols="30"></textarea>
+        </div>
     </main>
     </div>
   </body>

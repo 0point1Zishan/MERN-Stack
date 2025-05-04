@@ -18,10 +18,6 @@ h1,h2, h3, h4{
     background-color: rgb(241, 0, 221);
     color: white;
 }
-#myid p{
-    color: green;
-    font-style: italic;
-}
 p a{
     text-decoration: none;
     color:purple;
@@ -51,11 +47,11 @@ input[type="text"]{
 input[type="password"]{
     color: red;
 }
-input[type]{
+/* input[type]{
     background-color: rgb(243, 133, 0);
     font-size: medium;
     font-weight: bold;
-}
+} */
 a[title]{
     color:rgb(199, 8, 14);
 }
@@ -80,4 +76,50 @@ a[href$="er"]{
 a[class*="follow"]{
     color: black;
     text-decoration: overline;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    font-weight: bold;
+}
+p:active{
+    color:green;
+    font-weight: bolder;
+}
+div:nth-of-type(3){
+    background-color: rgb(172, 250, 95);
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bolder;
+    text-size-adjust: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:visited{
+    color:rgb(67, 133, 203);
+}
+form label{
+    /* display: block; */
+    background-color: bisque;
+    color: black;
+}
+button::first-letter{
+    text-transform: uppercase;
+}
+p::first-line{
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    background-color: bisque;
+    font-style: normal;
+}
+p::selection{
+    background-color:rgb(248, 248, 128);
+    text-shadow: 20px;
+    font-weight: bold;
+}
+#feedback::spelling-error{
+    text-decoration: wavy underline rgb(255, 0, 0);
+}
+#feedback::grammar-error{
+    text-decoration: underline yellow;
 }
