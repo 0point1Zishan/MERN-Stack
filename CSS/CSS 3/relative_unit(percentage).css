@@ -1,0 +1,26 @@
+h1 {
+  border: 2px solid black;
+  width: 30%;
+}
+h2 {
+  border: 2px solid black;
+  width: 50%;
+}
+h3 {
+  border: 2px solid black;
+  width: 75%;
+}
+#outer {
+  background-color: rgb(172, 96, 244);
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  margin: 50px;
+}
+#inner {
+  background-color: aquamarine;
+  border: 2px solid black;
+  height: 40%;
+  width: 40%;
+  margin: 30%;
+}

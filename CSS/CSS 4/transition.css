@@ -1,0 +1,16 @@
+div {
+  width: 250px;
+  height: 250px;
+  background-color: rebeccapurple;
+  border: 2px solid black;
+  margin: 0 auto;
+  /* transition-duration: 1s;
+  transition-delay: 1s; */
+  transition: 1s 1s;
+  transition: margin-top 1s ease-out 0.2s;
+}
+div:hover {
+  margin-top: 400px;
+  /* border-radius: 50%; */
+  background-color: skyblue;
+}

@@ -1,0 +1,25 @@
+#Card {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  image-resolution: 400px;
+  margin: 30px 20px 20px;
+  display: inline-block;
+  transition: 0.2s;
+  box-shadow: 5px 5px 8px black;
+  line-height: 1px;
+}
+#des {
+  margin-top: 10px;
+  padding: 10px 10px 2px;
+}
+img {
+  margin-top: 30px;
+  width: 100%;
+}
+#Card:hover {
+  box-shadow: 10px 10px 15px black;
+}
+p {
+  font-size: 1.3em;
+}

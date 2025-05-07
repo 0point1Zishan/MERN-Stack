@@ -1,0 +1,59 @@
+section {
+  margin-top: 100px;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: #7aa874;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+div:nth-of-type(2n) {
+  background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+  background-color: #ebb02d;
+}
+/* Rotate */
+/* #one {
+  transform: rotate(45deg);
+} */
+/* X and Y direction size change */
+#five {
+  transform: scale(0.5);
+}
+/* Specific direction change */
+#two {
+  transform: scaleX(0.5);
+}
+#three {
+  transform: scaleY(1.5);
+}
+#four {
+  /* (width, height) */
+  transform: scale(2, 0.5);
+}
+
+#six {
+  transform: translate(100px, 200px);
+}
+#seven {
+  transform: translateX(200px);
+}
+#eight {
+  transform: translateY(200px);
+}
+#nine {
+  transform: translateX(-200px);
+}
+#ten {
+  transform: skew(30deg);
+}
+
+#one {
+  transform: rotate(30deg) scale(2) skewY(30deg) translateX(300px);
+}

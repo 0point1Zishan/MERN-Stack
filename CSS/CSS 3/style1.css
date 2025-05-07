@@ -1,0 +1,12 @@
+span {
+  background-color: aquamarine;
+  border: 2px solid black;
+  /* Browser does not accept span width: ; */
+  height: 200px;
+  /* Browser do not accept span width: ; */
+  width: 500px;
+  /* work on only left-right */
+  padding: 20px;
+  /* work on only left-right */
+  margin: 20px;
+}

@@ -1,0 +1,11 @@
+div {
+  background-color: aquamarine;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  margin: 5px;
+  display: inline-block;
+}
+#hide {
+  display: none;
+}

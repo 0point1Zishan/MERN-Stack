@@ -1,0 +1,11 @@
+div {
+  height: 960px;
+  width: 1520px;
+  color: white;
+  background-color: aquamarine;
+  margin: 50px;
+  background-image: url("/flower.jpg");
+  /* background-size: contain; */
+  background-size: cover;
+  /* background-size: auto; */
+}
