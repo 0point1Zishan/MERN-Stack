@@ -1,0 +1,39 @@
+div {
+  height: 150px;
+  background-color: indianred;
+  border: 3px solid black;
+  font-size: 120px;
+  color: white;
+  padding-left: 10px;
+}
+@media (width: 400px) {
+  div {
+    background-color: white;
+    color: black;
+  }
+}
+@media (max-width: 350px) {
+  div {
+    color: white;
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    padding-top: 70px;
+  }
+}
+
+@media (min-width: 1020px) {
+  div {
+    background-color: blueviolet;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
+
+@media (orientation: landscape) {
+  div {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: white;
+    color: black;
+  }
+}

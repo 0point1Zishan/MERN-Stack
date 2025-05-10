@@ -1,0 +1,25 @@
+#box {
+  height: 400px;
+  width: 400px;
+  background-color: crimson;
+  animation: per 3s ease-in infinite;
+}
+
+@keyframes per {
+  0% {
+    border-radius: 50%;
+    color: crimson;
+  }
+  33% {
+    border-radius: 0%;
+    color: white;
+  }
+  66% {
+    border-radius: 50%;
+    color: yellow;
+  }
+  100% {
+    border-radius: 50%;
+    color: white;
+  }
+}
