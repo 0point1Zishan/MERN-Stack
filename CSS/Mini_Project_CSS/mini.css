@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.main_box {
+  background-image: url("photo.jpg");
+  background-size: cover;
+  font-family: serif;
+  height: 100vh;
+}
+.menu {
+  color: white;
+  background-color: rgba(black, black, black, 0.7);
+}
+.btn_one i {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  top: 10px;
+  position: absolute;
+  left: 16px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.sidebar_menu {
+  position: fixed;
+  left: -320px;
+  height: 100vh;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s linear;
+}
+.sidebar_menu .logo {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  line-height: 60px;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo a {
+  color: white;
+  position: absolute;
+  left: 60px;
+  text-decoration: none;
+  font-size: 40px;
+}
+.sidebar_menu .btn_two i {
+  font-size: 22px;
+  position: absolute;
+  color: gray;
+  line-height: 40px;
+  left: 290px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.sidebar_menu .menu {
+  position: absolute;
+  font-size: 25px;
+  width: 100%;
+  line-height: 40px;
+  top: 80px;
+}
+.sidebar_menu .menu ul li i,
+a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+.sidebar_menu .menu li {
+  margin-top: 10px;
+  padding: 10px 20px;
+  list-style-type: none;
+}
+
+.sidebar_menu .social_media {
+  position: absolute;
+  left: 25%;
+  bottom: 20px;
+}
+.sidebar_menu .social_media i {
+  color: white;
+  opacity: 0.5;
+  padding: 4px;
+}
+
+#check {
+  display: none;
+}
+.sidebar_menu .menu li:hover {
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.btn_two i:hover {
+  font-size: 1.05em;
+}
+.social_media i:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#check:checked ~ .sidebar_menu {
+  left: 0px;
+}
+.btn_one i:hover {
+  font-size: 35px;
+}
+#check:checked ~ .btn_one i {
+  opacity: 0;
+}
+#check:checked ~ .sidebar_menu .btn_two i {
+  opacity: 1;
+}
